@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{  url_for('static', filename='css/main.css')  }}">
+    <title>editar equipo </title>
+</head>
+<body>
+    <form method="POST">
+        {{forma.csrf_token}}
+        <p>
+            {{forma.nombre.label}}<br/>
+            {{forma.nombre(size=30)}}
+        </p>
+
+        <p>
+            {{forma.cantidadjugadores.label}}<br/>
+            {{forma.cantidadjugadores(size=30)}}
+        </p>
+        
+        <p>
+            {{forma.precioactual.label}}<br/>
+            {{forma.precioactual(size=30)}}
+        </p>
+
+        <p>
+            {{forma.liga.label}}<br/>
+            {{forma.liga(size=30)}}
+        </p>
+        <p>
+            {{forma.enviar()}}
+        </p>
+    </form>
+</body>
+</html>

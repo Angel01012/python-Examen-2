@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{  url_for('static', filename='css/main.css')  }}">
+    <title>Listado de equipos</title>
+</head>
+<body>
+    <div>
+        <a href="{{url_for('appequipo.agregarEquipo')}}">agregar Equipo</a>
+    </div>
+    <br>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nombre</th>
+                    <th>Cantidad de jugadores</th>
+                    <th>Precio actual</th>
+                    <th>Liga</th>
+                    <th>Editar</th>
+                    <th>Consultar</th>
+                    <th>Borrar</th>
+                </tr>
+            </thead>
+            <body>
+                {% for equipo in equipos %}
+                <tr>
+                    <td>{{equipo.id}}</td>
+                    <td>{{equipo.nombre}}</td>
+                    <td>{{equipo.cantidadjugadores}}</td>
+                    <td>{{equipo.precioactual}}</td>
+                    <td>{{equipo.liga}}</td>
+                    <td><a href="{{ url_for('appequipo.editarEquipo', id=equipo.id) }}">Editar</a></td>
+                    <td><a href="{{ url_for('appequipo.consultarEquipo', id=equipo.id) }}"">Consultar</a></td>
+                    <td><a href="{{ url_for('appequipo.eliminarEquipo', id=equipo.id) }}">Borrar</a></td>
+                </tr>
+                {% endfor %}
+            </body>
+        </table>
+    </div>
+</body>
+</html>
