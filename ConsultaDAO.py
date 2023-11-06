@@ -21,7 +21,7 @@ class ConsultasDAO:
                 con = Consulta(r[0],r[1],r[2],r[3])
                 consultas.append(con)
             return consultas
-    # @classmethod
+    @classmethod
     def insertar(cls,consulta):
         with CursorDelPool() as cursor:
             valores = (consulta.Id_Animal, consulta.Id_Doctor, consulta.Servicio, consulta.Costo)
@@ -31,9 +31,9 @@ class ConsultasDAO:
         
 if __name__ == "__main__":
     # #insertar
-    consulta1 = Consulta(id_animal=1, id_doctor=1, servicio="esterilizacion", costo=1550.10)
-    consultaInsertada = ConsultasDAO.insertar(consulta1)
-    log.debug(f"Consulta Agregado {consultaInsertada}") 
+    # consulta1 = Consulta(id_animal=2, id_doctor=3, servicio="baño", costo=350.50)
+    # consultaInsertada = ConsultasDAO.insertar(consulta1)
+    # log.debug(f"Consulta Agregado {consultaInsertada}") 
     # #Leer
     consulta = ConsultasDAO.seleccionartodos()
     for c in consulta:

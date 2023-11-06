@@ -41,18 +41,18 @@ class DoctorDAO:
         
 if __name__ == "__main__":
     #insertar
-    doctor1 = Doctor(id=2,nombre="angel",telefono="8672035623")
+    doctor1 = Doctor(id=3,nombre="juan",telefono="8672035623")
     doctorInsertado = DoctorDAO.insertar(doctor1)
     log.debug(f"Doctor Agregado {doctorInsertado}") 
-    # # #actualizar
-    doctor1 = Doctor(nombre="jose",telefono="8672035623",id=1)
-    doctorActualizado = DoctorDAO.actualizar(doctor1)
-    log.debug(f"Doctor Actualizado {doctorActualizado}")
+    # # # #actualizar
+    # doctor1 = Doctor(nombre="jose",telefono="8672035623",id=1)
+    # doctorActualizado = DoctorDAO.actualizar(doctor1)
+    # log.debug(f"Doctor Actualizado {doctorActualizado}")
 
-    # # #eliminar
-    doctor1 = Doctor(id=2)
-    doctorEliminado = DoctorDAO.eliminar(doctor1)
-    log.debug(f"Doctor Eliminado {doctorEliminado}")
+    # # # #eliminar
+    # doctor1 = Doctor(id=2)
+    # doctorEliminado = DoctorDAO.eliminar(doctor1)
+    # log.debug(f"Doctor Eliminado {doctorEliminado}")
 
     #Leer
     doctor = DoctorDAO.seleccionar()

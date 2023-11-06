@@ -266,3 +266,1128 @@
         servicio: consulta
         Costo: 1050.1
         
+11:36:21:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:36:21:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000151D7EB7DD0>
+11:36:21:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x00000151D9921030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:36:21:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:36:21:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x00000151D9921030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:38:51:AM: DEBUG [Consulta.py] :48 
+        Id Animal: 1
+        Id Doctor: 1
+        servicio: chequeo
+        Costo: 192.5
+        
+11:38:56:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:38:56:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001906F382810>
+11:38:56:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001906F391140; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:38:56:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:38:56:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001906F391140; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:38:56:AM: DEBUG [ConsultaDAO.py] :36 Consulta Agregado 1
+11:38:56:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:38:56:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001906F391140; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:38:56:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:38:56:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001906F391140; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:38:56:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:40:29:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:40:29:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000013C430EB950>
+11:40:29:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000013C44B39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:29:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:40:29:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000013C44B39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:29:AM: DEBUG [AnimalDAO.py] :46 Alumno Agregados 1
+11:40:29:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:40:29:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000013C44B39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:29:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:40:29:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000013C44B39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:29:AM: DEBUG [AnimalDAO.py] :60 
+        Id: 1
+        Raza: chihuahua
+        Fecha de ingreso: 0023-11-06
+        Fecha de salida: 0023-11-06
+        
+11:40:29:AM: DEBUG [AnimalDAO.py] :60 
+        Id: 2
+        Raza: bulldog
+        Fecha de ingreso: 0023-11-01
+        Fecha de salida: 0023-11-06
+        
+11:40:54:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:40:55:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000234F243B950>
+11:40:55:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x00000234F3EB9030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:55:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:40:55:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x00000234F3EB9030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:55:AM: DEBUG [AnimalDAO.py] :46 Alumno Agregados 1
+11:40:55:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:40:55:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x00000234F3EB9030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:55:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:40:55:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x00000234F3EB9030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:40:55:AM: DEBUG [AnimalDAO.py] :60 
+        Id: 1
+        Raza: chihuahua
+        Fecha de ingreso: 0023-11-06
+        Fecha de salida: 0023-11-06
+        
+11:40:55:AM: DEBUG [AnimalDAO.py] :60 
+        Id: 2
+        Raza: bulldog
+        Fecha de ingreso: 0023-11-01
+        Fecha de salida: 0023-11-06
+        
+11:40:55:AM: DEBUG [AnimalDAO.py] :60 
+        Id: 3
+        Raza: pitbull
+        Fecha de ingreso: 0023-11-01
+        Fecha de salida: 0023-11-06
+        
+11:41:17:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:41:17:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001F4FCBDB750>
+11:41:17:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001F4FE638F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:17:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:41:17:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001F4FE638F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:17:AM: DEBUG [DoctorDAO.py] :60 
+        Id: 1
+        Nombre: jose
+        Telefono: 8672035623
+        
+11:41:26:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:41:26:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002B02C285310>
+11:41:26:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000002B02DC39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:26:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:41:26:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000002B02DC39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:26:AM: DEBUG [DoctorDAO.py] :46 Doctor Agregado 1
+11:41:26:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:41:26:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000002B02DC39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:26:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:41:26:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000002B02DC39030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:26:AM: DEBUG [DoctorDAO.py] :60 
+        Id: 1
+        Nombre: jose
+        Telefono: 8672035623
+        
+11:41:26:AM: DEBUG [DoctorDAO.py] :60 
+        Id: 2
+        Nombre: angel
+        Telefono: 8672035623
+        
+11:41:38:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:41:38:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001F66ECD5310>
+11:41:38:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001F670709030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:38:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:41:38:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001F670709030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:38:AM: DEBUG [DoctorDAO.py] :46 Doctor Agregado 1
+11:41:38:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:41:38:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001F670709030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:38:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:41:38:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001F670709030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:38:AM: DEBUG [DoctorDAO.py] :60 
+        Id: 1
+        Nombre: jose
+        Telefono: 8672035623
+        
+11:41:38:AM: DEBUG [DoctorDAO.py] :60 
+        Id: 2
+        Nombre: angel
+        Telefono: 8672035623
+        
+11:41:38:AM: DEBUG [DoctorDAO.py] :60 
+        Id: 3
+        Nombre: juan
+        Telefono: 8672035623
+        
+11:41:55:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:41:55:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000026AEC0E7E90>
+11:41:55:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000026AEDB91030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:55:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:41:55:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000026AEDB91030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:55:AM: DEBUG [ConsultaDAO.py] :36 Consulta Agregado 1
+11:41:55:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:41:55:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000026AEDB91030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:55:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:41:55:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000026AEDB91030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:41:55:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:42:48:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000021F45827DD0>
+11:42:48:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000021F472A1030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:42:48:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:42:48:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000021F472A1030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:42:48:AM: DEBUG [ConsultaDAO.py] :36 Consulta Agregado 1
+11:42:48:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:42:48:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000021F472A1030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:42:48:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:42:48:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000021F472A1030; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:42:48:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:44:58:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:44:58:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002088DA6BD10>
+11:44:58:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000002088F4A0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:44:58:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:44:58:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000002088F4A0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:45:17:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:45:17:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002101042BD10>
+11:45:17:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000021011E70F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:45:17:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:45:17:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000021011E70F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:17:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:45:18:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:47:14:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:47:14:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001BA920CBD10>
+11:47:14:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001BA93B30F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:47:14:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:47:14:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001BA93B30F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:47:24:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:47:24:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001F59D5CBAD0>
+11:47:24:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001F59F030F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:47:24:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:47:24:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001F59F030F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:47:42:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:47:42:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001690F81BD10>
+11:47:42:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000016911250F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:47:42:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:47:42:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000016911250F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:48:27:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:48:27:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000221AD24BD10>
+11:48:27:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x00000221AECB0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:48:27:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:48:27:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x00000221AECB0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:48:27:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:48:38:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:48:38:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000010EF3E2BD10>
+11:48:38:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000010EF58D0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:48:38:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:48:38:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000010EF58D0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:07:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:49:07:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000027E77D3BD10>
+11:49:07:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000027E79770F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:07:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:49:07:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000027E79770F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:42:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:49:42:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000272396CBD10>
+11:49:42:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000002723B190F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:42:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:49:42:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000002723B190F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:49:42:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:49:50:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:49:50:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001D7367FBD10>
+11:49:50:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x000001D7382C0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:50:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:49:50:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x000001D7382C0F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:59:AM: DEBUG [cursorDelPool.py] :10 Entra with
+11:49:59:AM: DEBUG [Conexion.py] :28 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000230663DBD10>
+11:49:59:AM: DEBUG [Conexion.py] :38 Conexion obtendida <connection object at 0x0000023067E40F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:59:AM: DEBUG [cursorDelPool.py] :16 Sale with
+11:49:59:AM: DEBUG [Conexion.py] :44 Conexion regresada:<connection object at 0x0000023067E40F20; dsn: 'user=postgres password=xxx dbname=examen2 host=127.0.0.1 port=5432', closed: 0>
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: esterilizacion
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: desparasitar
+        Costo: 1550.1
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: jose
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: angel
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: chihuahua
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: bulldog
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        
+11:49:59:AM: DEBUG [ConsultaDAO.py] :40 
+        Id Animal: pitbull
+        Id Doctor: juan
+        servicio: baño
+        Costo: 350.5
+        

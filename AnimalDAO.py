@@ -41,7 +41,7 @@ class AnimalDAO:
         
 if __name__ == "__main__":
     # #insertar
-    # animal1 = Animal(id=1,raza="chihuahua",fecha_ingreso=date(23,11,6),fecha_salida=date(23,11,6))
+    # animal1 = Animal(id=3,raza="pitbull",fecha_ingreso=date(23,11,1),fecha_salida=date(23,11,6))
     # animalInsertado = AnimalDAO.insertar(animal1)
     # log.debug(f"Alumno Agregados {animalInsertado}") 
     # # #actualizar

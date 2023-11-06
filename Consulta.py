@@ -35,6 +35,13 @@ class Consulta:
     @Servicio.setter
     def Servicio (self,Servicio):
         self._servicio = Servicio
+    
+    @property
+    def Costo(self):
+        return self._costo
+    @Costo.setter
+    def Costo (self,Costo):
+        self._costo = Costo
 
 if __name__== "__main__":
     consulta = Consulta(1,1,"chequeo",192.5)
