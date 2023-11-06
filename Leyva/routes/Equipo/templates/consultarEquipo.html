@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{  url_for('static', filename='css/main.css')  }}">
+
+    <title>Consultar equipo</title>
+</head>
+<body>
+    {% for equipo in equipos %}
+
+    <p>{{equipo.id}}</p>
+    <p>{{equipo.nombre}}</p>
+    <p>{{equipo.cantidadjugadores}}</p>
+    <p>{{equipo.precioactual}}</p>
+    <p>{{equipo.liga}}}</p>
+        <a href="{{url_for('appequipo.listadoEquipo')}}">Listado de equipos</a>
+    {% endfor %}
+</body>
+</html>
