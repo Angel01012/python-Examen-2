@@ -1,0 +1,40 @@
+{% extends "layout.html"%}
+ 
+{% block content %}
+<div>
+    <center>
+        <h1>Lista Equipo</h1>
+        <br>
+    <a href="nuevoequipo">
+        agregar
+    </a>
+    <br>
+    <br>
+    <div class="col-lg-4 col-md-6">
+        <table border="1" class="table table-success table-striped-columns">
+            <thead>
+                <tr>
+                    <td scope="col">cantidad jugadores</td>
+                    <td scope="col">nombre</td>
+                    <td scope="col">editar</td>
+                    <td scope="col">detalle</td>
+                    <td scope="col">eliminar</td>
+                </tr>
+            </thead>
+            <body>
+                {% for equipo in equipos %}
+                <tr>
+                    <td scope="col">{{ equipo.id }}</td>
+                    <td scope="col">{{ equipo.cantidad_jugadores }}</td>
+                    <td scope="col">{{ equipo.nombre }}</td>
+                    <!-- <td scope="col"><a href="editarCliente/{{cliente.id}}">editar</a></td>
+                    <td scope="col"><a href="detalleCliente/{{cliente.id}}">detalle</a></td>
+                    <td scope="col"><a href="eliminarCliente/{{cliente.id}}">eliminar</a></td> -->
+                </tr>
+                {% endfor %}
+            </body>
+        </table>
+    </div>
+    </center>
+</div>
+{% endblock %}

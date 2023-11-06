@@ -1,0 +1,38 @@
+{% extends "layout.html"%}
+ 
+{% block content %}
+<div>
+    <center>
+        <h1>Lista Patrocinador</h1>
+        <br>
+    <a href="nuevopatrocinador">
+        agregar
+    </a>
+    <br>
+    <br>
+    <div class="col-lg-4 col-md-6">
+        <table border="1" class="table table-success table-striped-columns">
+            <thead>
+                <tr>
+                    <td scope="col">nombre</td>
+                    <td scope="col">editar</td>
+                    <td scope="col">detalle</td>
+                    <td scope="col">eliminar</td>
+                </tr>
+            </thead>
+            <body>
+                {% for patrocinador in patrocinadores %}
+                <tr>
+                    <td scope="col">{{ patrocinador.id }}</td>
+                    <td scope="col">{{ patrocinador.nombre }}</td>
+                    <!-- <td scope="col"><a href="editarCliente/{{cliente.id}}">editar</a></td>
+                    <td scope="col"><a href="detalleCliente/{{cliente.id}}">detalle</a></td>
+                    <td scope="col"><a href="eliminarCliente/{{cliente.id}}">eliminar</a></td> -->
+                </tr>
+                {% endfor %}
+            </body>
+        </table>
+    </div>
+    </center>
+</div>
+{% endblock %}
