@@ -1,0 +1,35 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:22:20] "POST /AgregarJugador HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:23:34] "[33mPOST /AgregarJugador HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:23:52] "[33mPOST /AgregarJugador HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:23:53] "[33mPOST /AgregarJugador HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:23:54] "[33mPOST /AgregarJugador HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:23:54] "[33mPOST /AgregarJugador HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:23:54] "[33mPOST /AgregarJugador HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:25:21] "POST /AgregarJugador HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:25:47] "GET /ConsultarJugadores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:26:59] "GET /ConsultarJugador HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:27:31] "PUT /EditarJugador HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:27:44] "GET /ConsultarJugador HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:29:38] "[31m[1mPOST /BorrarJugador HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:30:16] "[31m[1mPOST /BorrarJugador HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:30:21] "DELETE /BorrarJugador HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:30:40] "GET /ConsultarJugadores HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 11:46:53] "GET /ConsultarPatrocinadores HTTP/1.1" 200 -
